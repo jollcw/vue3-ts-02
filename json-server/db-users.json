@@ -1,0 +1,85 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "joll",
+      "age": 50,
+      "gender": "male",
+      "birthDate": "1961/06/15",
+      "job": "informatic",
+      "image": "1.jpg"
+    },
+    {
+      "id": 2,
+      "name": "john",
+      "age": 30,
+      "gender": "famale",
+      "birthDate": "2000/06/15",
+      "job": "ingeneer",
+      "image": "3.jpg"
+    },
+    {
+      "id": 3,
+      "name": "john",
+      "age": 30,
+      "gender": "famale",
+      "birthDate": "2000/06/15",
+      "job": "ingeneer",
+      "image": "3.jpg"
+    },
+    {
+      "id": 4,
+      "name": "john",
+      "age": 30,
+      "gender": "famale",
+      "birthDate": "2000/06/15",
+      "job": "ingeneer",
+      "image": "7.jpg"
+    },
+    {
+      "id": 5,
+      "name": "john",
+      "age": 30,
+      "gender": "famale",
+      "birthDate": "2000/06/15",
+      "job": "ingeneer",
+      "image": "7.jpg"
+    },
+    {
+      "name": "john",
+      "age": 30,
+      "gender": "famale",
+      "birthDate": "2000/06/15",
+      "job": "ingeneer",
+      "image": "7.jpg",
+      "id": 6
+    },
+    {
+      "name": "nombre",
+      "age": 23,
+      "gender": "male",
+      "birthDate": "fecha",
+      "job": "nada",
+      "image": "8.img",
+      "id": 7
+    },
+    {
+      "id": 8,
+      "name": "pepito",
+      "age": 27,
+      "gender": "male",
+      "birthDate": "fecha 2",
+      "job": "cooker",
+      "image": "6.jpg"
+    },
+    {
+      "id": 9,
+      "name": "pepito",
+      "age": 27,
+      "gender": "male",
+      "birthDate": "fecha 2",
+      "job": "cooker",
+      "image": "8.jpg"
+    }
+  ]
+}

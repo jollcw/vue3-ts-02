@@ -1,12 +1,16 @@
 <template>
-  <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </div>
-  <router-view/>
+  <base-layout>
+    <router-view />
+  </base-layout>
 </template>
-
+<script>
+import BaseLayout from './components/base/BaseLayout';
+export default {
+  components: { BaseLayout },
+};
+</script>
 <style lang="scss">
+@import './scss/main.scss';
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;

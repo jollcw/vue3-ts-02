@@ -1,0 +1,54 @@
+Uso json-server
+-h, --help -> json-server -h
+json-server db-users.json
+-d, --delay -> json-server db-users.json -d 1000
+json-server db-users.json --routes db-users-routes.json
+
+Rutas
+
+/api/posts # → /posts
+/api/posts/1  # → /posts/1
+/posts/1/show # → /posts/1
+/posts/javascript # → /posts?category=javascript
+/articles?id=1 # → /posts/1
+
+Relationships
+
+To include children resources, add _embed
+
+GET /posts?_embed=comments
+GET /posts/1?_embed=comments
+http://localhost:3001/posts/1?_embed=comments
+
+To include parent resource, add _expand
+
+GET /comments?_expand=post
+GET /comments/1?_expand=post
+
+To get or create nested resources (by default one level, add custom routes for more)
+
+GET  /posts/1/comments
+POST /posts/1/comments
+
+To include many to many relationships
+
+GET /posts?include=tags
+GET /posts/1?include=tags
+GET /tags?include=posts
+GET /tags/1?include=posts
+
+
+http://localhost:3001/posts/1/comments
+http://localhost:3001/posts/1?_embed=comments
+http://localhost:3001/comments/1?_expand=post
+
+
+Toda la db
+http://localhost:3001/db
+
+Aranque servidor
+json-server db.json --routes routes.json
+json-server db-posts-comments.json --routes posts-comments-routes.json
+
+C:\Users\Jordi\Documents\Json-Server\ej-posts-comments\posts-comments-routes.json
+db-posts-comments.json
